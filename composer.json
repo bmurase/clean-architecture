@@ -1,0 +1,19 @@
+{
+    "name": "bmurase/clean-architecture",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bmurase",
+            "email": "biamurase@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*"
+    }
+}
